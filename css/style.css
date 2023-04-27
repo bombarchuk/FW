@@ -74,6 +74,7 @@ header {
 .play {
     margin-left: 0px;
     margin-top: 220px;
+    margin-bottom: 50px;
     background-color:rgba(242, 242, 242, 0.565);
     border-radius: 10px;
 }
@@ -82,14 +83,18 @@ header {
     font-family: segoe ui;
     font-size: 32px;
 }
-.play h3 {
-    margin-left:560px;
-    font-family: segoe ui;
+.launcer1 {
+    margin-left: 250px;
+    font-family: 'Segoe UI';
 }
-.play h2 {
-    margin-left:560px;
-    font-family: segoe ui;
+.launcer2 {
+    margin-left: 900px;
+    font-family: 'Segoe UI';
+    margin-top: -130px;
 }
-.laubcer2 {
-    margin-left: 100px;
+.launcer1 button {
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(253, 28, 28);
+    color: white;
 }
