@@ -143,6 +143,7 @@ footer {
 .shop_case {
     background-color:rgba(242, 242, 242, 0.565);
     border-radius: 10px;
+    margin-top: 190px;
 }
 .shop_case h2 {
     font-family: segoe ui;
