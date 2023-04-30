@@ -130,13 +130,27 @@ footer {
     margin-bottom: -21px;
     margin-top: 230px;
 }
-.shop {
+.shop_donate {
     background-color:rgba(242, 242, 242, 0.565);
     border-radius: 10px;
     margin-top: 100px;
     font-family: segoe ui;
 }
-.shop button {
+.shop_donate button {
     border: none;
     margin-left: 75px;
+}
+.shop_case {
+    background-color:rgba(242, 242, 242, 0.565);
+    border-radius: 10px;
+}
+.shop_case h2 {
+    font-family: segoe ui;
+    font-size: 32px;
+    margin-left: 850px;
+}
+.shop_case button {
+    border-radius: 30px;
+    border: none;
+    margin-left: 90px;
 }
