@@ -25,6 +25,10 @@ body {
     margin-top: -60px;
     border-bottom: 3px;
     text-decoration: none;
+    transition: transform 200ms;
+}
+.navbar a:hover {
+    transform: translateY(5%);
 }
 header {
     margin-top: 360px;
@@ -40,7 +44,7 @@ header {
 }
 
 .buttons button {
-    border-radius: 15px;
+    border-radius: 11px;
     background-color: rgba(255, 255, 255, 0.846);
     border: 5px white;
     border-bottom: 3px;
@@ -60,7 +64,6 @@ header {
     font-family: segoe ui;
     margin-left: 750px;
     font-size: 32px;
-    margin-top: ;
 }
 .servers button {
     background-color: rgba(0, 0, 0, 0);
@@ -69,6 +72,10 @@ header {
     margin-top: 90px;
     border: none;
     margin-bottom: 90px;
+    transition: transform 200ms;
+}
+.servers button:hover {
+    transform: translateY(12%);
 }
 /*раздел играть*/
 .play {
@@ -139,6 +146,10 @@ footer {
 .shop_donate button {
     border: none;
     margin-left: 75px;
+    transition: transform 200ms;
+}
+.shop_donate button:hover {
+    transform: translateY(6%);
 }
 .shop_case {
     background-color:rgba(242, 242, 242, 0.565);
@@ -154,4 +165,8 @@ footer {
     border-radius: 30px;
     border: none;
     margin-left: 90px;
+    transition: transform 200ms;
+}
+.shop_case button:hover {
+    transform: translateY(6%);
 }
